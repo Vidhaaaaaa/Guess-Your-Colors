@@ -45,9 +45,9 @@ def inv_col(x): # defining a function to check for invalid color
     return x
 
 
-def user_inp(): # function for checking if the input is invalid (length of the input + invalid color endered)
+def user_inp():  # function for checking if the input is invalid (length of the input + invalid color entered)
     
-    guess = input('enter colors: ').upper().split() # taking user input with spaces and converting it into list
+    guess = input('enter colors: ').upper().split()   # taking user input with spaces and converting it into list
 
     if len(guess) != inp_col_length:
         print(f'please enter {inp_col_length} colors')
